@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grocery | Website</title>
+        <link rel="stylesheet" href="normalize.css"/>
+        <link rel="stylesheet" href="css/all.min.css"/>
+        <link rel="stylesheet" href="css/grocery.css"/>
+    
+     <!--Google fonts -->
+
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Sofia&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-shopping-basket"></i>
+                    <h2>Groco</h2>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Search here...">
+                    <button type="submit" class="btn"><i class="fas fa-search "></i></button>
+                </form>
+            </div>
+        </header>
+        <div class="navBar">
+            <div class="container">
+                <i class="fas fa-list" onclick="showMenu()"></i>
+                <div class="logo">
+                    <h2>Groco</h2>
+                </div>
+                <nav id="navLinks">
+                    <ul>
+                        <li class="active"><i class="fa fa-times" onclick="hideMenu()"></i></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Category</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Deal</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="icns">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="container">
+                <div class="box-1">
+                    <img src="images/home-img.png" alt="#">
+                </div>
+                <div class="box-2">
+                    <h3>Fresh & Organic</h3>
+                    <h1>Your daily need <br> products</h1>
+                    <button type="submit" class="btn">Get Started</button>
+                </div>
+            </div>
+        </main>
+        <section class="banner">
+            <div class="container">
+                <div class="box">
+                    <img src="images/banner-1.jpg" alt="#">
+                    <div class="caption">
+                        <h3>Special Offer</h3>
+                        <p>Up To 50%</p>
+                        <button type="submit" class="btn">Check Out</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/banner-2.jpg" alt="#">
+                    <div class="caption">
+                        <h3>Limited Offer</h3>
+                        <p>Up To 40%</p>
+                        <button type="submit" class="btn">Check Out</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <h2>Latest <span>products</span></h2>
+                <div class="content">
+                    <div class="box">
+                        <img src="images/product-1.png" alt="#">
+                        <div>
+                            <h3>Organic Banana</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <h5>$10.5</h5>
+                                <p>$12.5</p>
+                            </div>
+                            <div class="quantity">
+                               <p> Quantity:</p>
+                               <input type="number" placeholder="1">
+                               
+                            </div>
+                            <button type="submit" class="btn">Add To Cart</button>
+                        </div>
+                        <div class="sale">
+                            <h4>-33%</h4>
+                        </div>
+                        <div class="icns">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/product-2.png" alt="#">
+                        <div>
+                            <h3>Organic Tomato</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <h5>$10.5</h5>
+                                <p>$12.5</p>
+                            </div>
+                            <div class="quantity">
+                               <p> Quantity:</p>
+                               <input type="number" placeholder="1">
+                               
+                            </div>
+                            <button type="submit" class="btn">Add To Cart</button>
+                        </div>
+                        <div class="sale">
+                            <h4>-33%</h4>
+                        </div>
+                        <div class="icns">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/product-6.png" alt="#">
+                        <div>
+                            <h3>Natural Almonds</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <h5>$10.5</h5>
+                                <p>$12.5</p>
+                            </div>
+                            <div class="quantity">
+                               <p> Quantity:</p>
+                               <input type="number" placeholder="1">
+                               
+                            </div>
+                            <button type="submit" class="btn">Add To Cart</button>
+                        </div>
+                        <div class="sale">
+                            <h4>-33%</h4>
+                        </div>
+                        <div class="icns">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/product-4.png" alt="#">
+                        <div>
+                            <h3>Natural Milk</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <h5>$10.5</h5>
+                                <p>$12.5</p>
+                            </div>
+                            <div class="quantity">
+                               <p> Quantity:</p>
+                               <input type="number" placeholder="1">
+                               
+                            </div>
+                            <button type="submit" class="btn">Add To Cart</button>
+                        </div>
+                        <div class="sale">
+                            <h4>-33%</h4>
+                        </div>
+                        <div class="icns">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/product-5.png" alt="#">
+                        <div>
+                            <h3>Organic Grapes</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <h5>$10.5</h5>
+                                <p>$12.5</p>
+                            </div>
+                            <div class="quantity">
+                               <p> Quantity:</p>
+                               <input type="number" placeholder="1">
+                               
+                            </div>
+                            <button type="submit" class="btn">Add To Cart</button>
+                        </div>
+                        <div class="sale">
+                            <h4>-33%</h4>
+                        </div>
+                        <div class="icns">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/product-3.png" alt="#">
+                        <div>
+                            <h3>Organic Orange</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <h5>$10.5</h5>
+                                <p>$12.5</p>
+                            </div>
+                            <div class="quantity">
+                               <p> Quantity:</p>
+                               <input type="number" placeholder="1 /Kg">
+                               
+                            </div>
+                            <button type="submit" class="btn">Add To Cart</button>
+                        </div>
+                        <div class="sale">
+                            <h4>-33%</h4>
+                        </div>
+                        <div class="icns">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/product-7.png" alt="#">
+                        <div>
+                            <h3>Organic Apple</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <h5>$10.5</h5>
+                                <p>$12.5</p>
+                            </div>
+                            <div class="quantity">
+                               <p> Quantity:</p>
+                               <input type="number" placeholder="1">
+                              
+                            </div>
+                            <button type="submit" class="btn">Add To Cart</button>
+                        </div>
+                        <div class="sale">
+                            <h4>-33%</h4>
+                        </div>
+                        <div class="icns">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/product-8.png" alt="#">
+                        <div>
+                            <h3>Natural Butter</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <h5>$10.5</h5>
+                                <p>$12.5</p>
+                            </div>
+                            <div class="quantity">
+                               <p> Quantity:</p>
+                               <input type="number" placeholder="1">
+                               
+                            </div>
+                            <button type="submit" class="btn">Add To Cart</button>
+                        </div>
+                        <div class="sale">
+                            <h4>-33%</h4>
+                        </div>
+                        <div class="icns">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/product-9.png" alt="#">
+                        <div>
+                            <h3>Organic Carrot</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <h5>$10.5</h5>
+                                <p>$12.5</p>
+                            </div>
+                            <div class="quantity">
+                               <p> Quantity:</p>
+                               <input type="number" placeholder="1">
+                               
+                            </div>
+                            <button type="submit" class="btn">Add To Cart</button>
+                        </div>
+                        <div class="sale">
+                            <h4>-33%</h4>
+                        </div>
+                        <div class="icns">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="deal">
+            <div class="container">
+                <h2>Deal Of The Day</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero veniam labore necessitatibus velit, sunt voluptatem in expedita cupiditate eum explicabo numquam architecto cumque iste sed unde? Recusandae, magnam odit!</p>
+                <div class="count-down">
+                    <div class="box">
+                        <h3>12</h3>
+                        <span>Day</span>
+                    </div>
+                    <div class="box">
+                        <h3>4</h3>
+                        <span>Hour</span>
+                    </div>
+                    <div class="box">
+                        <h3>16</h3>
+                        <span>Minute</span>
+                    </div>
+                    <div class="box">
+                        <h3>4</h3>
+                        <span>Second</span>
+                    </div>
+                </div>
+                <button type="submit" class="btn">Get The Deal</button>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="number" placeholder="Phone">
+                    <input type="text" placeholder="Subject">
+                    <textarea rows="10" placeholder="Message"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="container">
+                <h2>Subscribe For Latest Updates</h2>
+                <div class="box">
+                    <input type="email" placeholder="Enter Your Email">
+                    <button type="submit" class="btn">Subscribe</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="content">
+                    <div class="box">
+                        <div class="logo">
+                            <i class="fas fa-shopping-basket"></i>
+                            <h3>Groco</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, facere tempore maxime molestiae dolorum dolor ipsa? Exercitationem cum architecto alias nam itaque explicabo, earum placeat, quibusdam deleniti, reprehenderit consectetur ducimus?</p>
+                        <div class="share">
+                            <a href="#" class="btn fab fa-facebook-f"></a>
+                            <a href="#" class="btn fab fa-twitter"></a>
+                            <a href="#" class="btn fab fa-instagram"></a>
+                            <a href="#" class="btn fab fa-linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>Our Locations</h3>
+                        <div class="links">
+                            <a href="#">india</a>
+                            <a href="#">USA</a>
+                            <a href="#">france</a>
+                            <a href="#">japan</a>
+                            <a href="#">russia</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>quick links</h3>
+                        <div class="links">
+                            <a href="#">home</a>
+                            <a href="#">category</a>
+                            <a href="#">product</a>
+                            <a href="#">deal</a>
+                            <a href="#">contact</a>
+                        </div>
+                    </div>
+            
+                    <div class="box">
+                        <h3>download app</h3>
+                        <div class="links">
+                            <a href="#">google play</a>
+                            <a href="#">window xp</a>
+                            <a href="#">app store</a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p>Created by <span>Mr.Web Designer</span> | All Rights Are Reserved.</p>
+            </div>
+        </footer>
+
+
+
+
+
+        <script>
+
+
+
+            let navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.top = 0;
+            } 
+            function hideMenu(){
+                navLinks.style.top = "-100vh";
+            }
+    
+    
+        </script>
+    </body>
+</html>
